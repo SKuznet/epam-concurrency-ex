@@ -7,7 +7,6 @@ public class SyncronizedLockExample implements Runnable{
         this.resource = resource;
     }
 
-
     @Override
     public void run() {
         synchronized (this) {
